@@ -53,11 +53,11 @@ void loop()
   if(val3==0)                                                             // If, the Status is 1, turn on the TV
      {
       digitalWrite(Light,LOW);
-      Serial.println("TV ON");
+      Serial.println("Light ON");
     }
     else if(val3==1)                                                      // If, the Status is 0, turn Off the TV
     {                                      
       digitalWrite(Light,HIGH);
-      Serial.println("TV OFF");
+      Serial.println("Light OFF");
     }
   }
